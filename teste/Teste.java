@@ -40,40 +40,9 @@ public class Teste {
                         System.out.println("2 - Matriz de Peso");
                         System.out.println("3 - Sair");
                         imprime = entrada.nextInt();
-                        switch (imprime){
-                            case 1:
-                                System.out.println("Matriz adjacente:");
-                                System.out.print("  ");
-                                for (int i = 1; i<=v;i++)
-                                    System.out.print(i+" ");
-                                System.out.println();
-                                for(int i = 1; i <= v; i++){
-                                    System.out.print(i+" ");
-                                    for(int j = 1; j<=v ; j++)
-                                        System.out.print(grafo.getTitulo(i,j,imprime)+" ");
-                                    System.out.println();
-                                }
-                                break;
-
-                            case 2:
-                                    System.out.println("Matriz de Pso:");
-                                    System.out.print("  ");
-                                    for (int i = 1; i<=v;i++)
-                                        System.out.print(i+" ");
-                                    System.out.println();
-                                    for(int i = 1; i <= v; i++){
-                                        System.out.print(i+" ");
-                                        for(int j = 1; j<=v ; j++)
-                                            System.out.print(grafo.getTitulo(i,j,imprime)+" ");
-                                        System.out.println();
-                                    }
-                                    break;
-                            default:
-                                break;
 
                         }
 
-                    }
-        entrada.close();
     }
+
 }

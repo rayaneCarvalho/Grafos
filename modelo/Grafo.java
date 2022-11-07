@@ -36,25 +36,12 @@ public class Grafo {
                     System.out.println("Vertice não existente");
                 }
             } else {
-                System.out.println("ero");
+                System.out.println("erro");
             }
         }
     }
     public int getTitulo(int de, int para, int i)
     {
-     try
-     {
-         if(i == 1){
-             return matriz[de][para];
-         }else{
-             return matrizPeso[de][para];
-         }
-
-     }
-     catch (ArrayIndexOutOfBoundsException index)
-     {
-         System.out.println("Vertice não existente");
-     }
      return -1;
     }
 
