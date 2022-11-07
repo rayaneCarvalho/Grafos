@@ -56,7 +56,7 @@ public class Teste {
                                 break;
 
                             case 2:
-                                    System.out.println("Matriz de Peso:");
+                                    System.out.println("Matriz de Pso:");
                                     System.out.print("  ");
                                     for (int i = 1; i<=v;i++)
                                         System.out.print(i+" ");

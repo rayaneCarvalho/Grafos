@@ -36,7 +36,7 @@ public class Grafo {
                     System.out.println("Vertice não existente");
                 }
             } else {
-                System.out.println("erro");
+                System.out.println("ero");
             }
         }
     }
